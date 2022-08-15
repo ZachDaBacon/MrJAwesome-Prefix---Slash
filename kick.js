@@ -30,7 +30,7 @@ module.exports = {
         .setFooter(`Kicked From: ${interaction.guild.name}`)
 
         const embed = new MessageEmbed()
-        .setDescription(`${kickUser.tag} has been **kicked**. | ${reason}`)
+        .setDescription(`${targetUser.tag} has been **kicked**. | ${reason}`)
         .setColor('#5765F2')
         .setFooter(`Server Name: ${interaction.guild.name}`)
 
