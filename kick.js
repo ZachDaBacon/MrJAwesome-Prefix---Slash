@@ -32,7 +32,7 @@ module.exports = {
         const embed = new MessageEmbed()
         .setDescription(`${kickUser.tag} has been **kicked**. | ${reason}`)
         .setColor('#5765F2')
-        .setFooter(`Shade | Server Name: ${interaction.guild.name}`)
+        .setFooter(`Server Name: ${interaction.guild.name}`)
 
         const embedError = new MessageEmbed()
         .setDescription(`Oh Oh! I failed to kick ${targetUser.tag} 😮. Try again, lets hope it works this time 😅.`)
